@@ -19,7 +19,7 @@ try:
             # Стало:
             otvet = num1 ** num2
         case "/": # Дима
-            print("Деление")
+            otvet = num1 / num2
         case "//": # Никита
             print("Целочисленное деление")
         case "%": # Никита
