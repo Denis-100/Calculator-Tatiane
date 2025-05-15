@@ -17,6 +17,7 @@ input_data()
 
 oper = input("Выберите операцию: '+' -' '*' '**' '/' '//' '%' ")
 
+
 match oper:
     case "+": # Саша
         print("Сложение")
@@ -32,10 +33,11 @@ match oper:
         # Стало:
         otvet = num1 ** num2
     case "/": # Дима
-        print("Деление")
+        otvet = num1 / num2
     case "//": # Никита
         print("Целочисленное деление")
     case "%": # Никита
         print("Остаток от деления")
+
 
 print(f"{num1} {oper} {num2} = {otvet}")
